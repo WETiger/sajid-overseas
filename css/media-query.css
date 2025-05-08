@@ -1,0 +1,55 @@
+@media (max-width: 1199px) {
+
+
+
+}
+@media (max-width: 991px) {
+
+
+
+}
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}
+@media screen and (max-width: 576px) {
+    .hero-section{
+        background-image: url(../images/Hero-BG-01.png) no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+    .hero-text{}
+    .hero-text h3{
+        font-size: 20px;
+        width: 250px;
+        line-height: 30px;
+    }
+    .hero-text h3 span{
+        font-size: 18px;
+    }
+    .btnn{
+        margin-top: 20px;
+    }
+    .btn-primary{
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+
+    .program{
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+    .banner-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
