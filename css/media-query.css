@@ -51,5 +51,24 @@
     .banner-item{
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .are-you-section{
+        flex-direction: column;
+    }
+    .welcome-text{
+        margin-top: 20px;
+    }
+    .news-update {
+        padding: 20px;
+        }
+    .news-up {
+        font-size: 13px;
+        padding: 8px;
+        width: 160px;
+    }
+    .visa-scoll a{
+        font-size: 18px;
+    }
+    .are-you-btn{
+        margin-top: 25px;
+    }
 }

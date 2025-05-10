@@ -232,13 +232,145 @@ Big Banner Area
     position: relative;
     top: -75px;
 }
-.are-you{
+.are-you-section{
     background-color: #8D95FF;
     padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .are-you-title{
     color:#fff;
 }
 .are-you p{
     color:#fff;
+}
+.are-you-btn a{
+    color:#fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+.immigration-section-area{
+    margin: 100px 0;
+}
+.immi-subtitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: #2D7FC7;
+    text-align: center;
+}
+.immigration-title{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+--------------
+Footer Area
+--------------
+*/
+#footer{
+    background-color: #27185F;
+    color:#fff;
+    padding: 50px;
+}
+.footer {
+	
+}
+.footer-logo{
+        padding-right: 30px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.widget-social{
+    margin-top: 30px;
+}
+.widget-social ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.widget-social ul li a {
+	color: #fff;
+	display: block;
+    font-size: 1.5rem;
+	padding: 10px;
+	transition: .3s;
+	}
+.widget-social ul li a i {
+	transition: .3s;
+}
+.widget-social ul li a:hover i {
+	transform: rotate(360deg);
+	color:#39d9e7;
+}
+.widget-social ul li a:hover {
+	opacity: .8;
+	
+}
+
+.service-list ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.service-list ul li a:hover{
+        color:#39d9e7;
+        transition: 0.2s;
+}
+.location >div{
+    margin-bottom: 20px;
+    font-size: 1.12rem;
+}
+
+.service-list ul li a{
+    color: #fff;
+    font-size: 1.12rem;
+}
+.foot-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.copyright{
+    text-align: center;
+}
+.copysajid p{
+    font-size: 1rem;
+    font-weight: 500;
 }
